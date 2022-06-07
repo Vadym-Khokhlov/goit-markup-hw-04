@@ -443,12 +443,19 @@ body {
   padding-bottom: 60px;
   display: flex;
   justify-content: center;
+  height: 252px;
 }
 
 .footer-logo-link {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
+}
+.contact-link-footer {
+  color: var(--secondary-text-color);
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-logo-studio {
@@ -462,7 +469,6 @@ body {
 .footer .container {
   display: flex;
   align-items: baseline;
-
 } 
 
 .address {
@@ -481,8 +487,8 @@ body {
   display: flex;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-link-footer:hover,
+.contact-link-footer:focus {
   color: var(--accent-color);
 }
 
